@@ -1,0 +1,154 @@
+
+#header-div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 15px;
+  padding-inline: 50px;
+
+}
+#child-2 a{
+  text-decoration: none;
+  color: #188fff;
+  font-size: 13px;
+}
+#child-1 a img{
+  height:36px;
+}
+
+#body-div{
+  display: flex;
+  background-color: whitesmoke;
+  padding-bottom: 30%;
+  padding-left: 11.5%;
+  padding-top: 10px;
+}
+#body-div-1{
+  background-color: white;
+  margin-right: 5%;
+}
+
+
+#body-div-1 img{
+  width: 600px;
+  margin: auto;
+  padding: 1px;
+  border: 1px solid lightgrey;
+}
+#learn-btn{
+  background-color: white;
+  border-radius: 15px;
+  font-size: 15px;
+  height: 35px;
+  width: 150px;
+}
+
+#body-div-2{
+  width: 320px;
+  font-size: 20px;
+  text-align: center;  
+  border: 1px solid lightgrey;
+  background-color: white;
+}
+
+#logo-div img{
+  width: 80px;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+#form-heading span{
+  font-size: 15px;
+
+}
+
+#form-heading{ 
+  padding-bottom: 20px;
+}
+#input-1{
+  padding-top: 30px;
+  outline: none;
+  border: none;
+  width: 85%;
+  font-size: 13px;
+  height: 25px;
+}
+
+#input-wrap label{
+  font-family: sans-serif;
+  font-size: 10px;
+  padding: 14px;
+  color: red;
+  pointer-events: none;
+  position: absolute;
+  top: 5px;
+  left: 0px;
+  transition: 0.38s ease all;
+}
+
+#input-wrap {
+  position: relative;
+  height: auto;
+  width: auto;
+}
+
+#input-wrap:focus+label {
+  
+}
+
+#line{
+  width: 85%;
+}
+
+#input-btn{
+  border: none;
+  width: 85%;
+  height: 35px;
+  background-color: #188fff;
+  color: white;
+  margin-block: 20px;
+  font-weight: bolder;
+  font-size: 15px;
+  border-radius: 20px;
+}
+
+#checkbox{
+  display: flex;
+  width: 85%;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  color: #188fff;
+}
+
+#btn-2{
+  border: 1px solid #188fff ;
+  border-radius: 15px;
+  width: 85%;
+  height: 35px;
+  margin-top: 70px;
+  background-color: white;
+}
+
+#btn-2 a {
+  text-decoration: none;
+  color: #188fff;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+#footer-div a{
+  text-decoration: none;
+  color: #188fff;
+  font-size: 10px;
+}
+
+#footer-div{
+  background-color: white;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 8px;
+  z-index:1;
+}
